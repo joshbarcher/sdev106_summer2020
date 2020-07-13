@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*
+   Styles for headers and images
+   Author: Josh Archer
+   Filename: headers_imgs.css
+   Date: 7/13/2020
+ */
+
+img {
+    border: 2px solid black;
+    width: 100%;
+}
+
+h1 {
+    color: saddlebrown;
+}

@@ -1,0 +1,23 @@
+html {
+    background-color: palevioletred;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 2.0em;
+    font-weight: bold;
+    font-family: "Blackadder ITC";
+    border-bottom: 2px solid black;
+    color: darkblue;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+    background-color: yellow;
+    color: blue;
+}

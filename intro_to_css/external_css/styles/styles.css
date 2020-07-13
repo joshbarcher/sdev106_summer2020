@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+   Styles for the entire page
+   Author: Josh Archer
+   Filename: styles.css
+   Date: 7/13/2020
+ */
+
+@import "headers_imgs.css";
+@import "lists.css";
+
+body {
+    background-color: lightblue;
+}
+
