@@ -1,0 +1,19 @@
+/* nav elements that are children of headers */
+header > nav {
+    background-color: burlywood;
+}
+
+/* aside elements that are descendents of section elements */
+section aside {
+    font-family: "Book Antiqua";
+    font-size: 0.7em;
+}
+
+section#play2 h1 {
+     color: chartreuse;
+}
+
+section.playbill {
+    background-color: lightblue;
+    border-top: 2px solid gray;
+}
