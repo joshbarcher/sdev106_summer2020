@@ -1,0 +1,14 @@
+h1 {
+    font-family: Georgia, "Lucida Bright", "Bodoni MT", serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+/* a strong within a p */
+p strong {
+    font-size: 0.5rem; /* stick with rems, not ems */
+}
