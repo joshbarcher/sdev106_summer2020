@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 h1 {
-    font-family: Georgia, "Lucida Bright", "Bodoni MT", serif;
+    font-family: Bungee, Georgia, "Lucida Bright", "Bodoni MT", serif;
     font-size: 1.5rem;
 }
 
 p {
-    font-family: "Century Gothic", Arial, sans-serif;
+    font-family: Roboto, "Century Gothic", Arial, sans-serif;
     font-size: 1.1rem;
+    padding: 8px 8px 8px 50px;
+    border: 3px solid #7d2626;
+    margin: 1em;
+    background-color: pink;
+    border-radius: 20px;
 }
 
 /* a strong within a p */

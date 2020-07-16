@@ -18,7 +18,7 @@ li {
 }
 
 /* select elements with the odd class */
-li.other {
+.other {
     font-weight: bold;
     text-transform: uppercase;
 }

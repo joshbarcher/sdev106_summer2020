@@ -1,6 +1,6 @@
 /* nav elements that are children of headers */
 header > nav {
-    background-color: burlywood;
+    background-color: #4a412a;
 }
 
 /* aside elements that are descendents of section elements */
@@ -10,10 +10,20 @@ section aside {
 }
 
 section#play2 h1 {
-     color: chartreuse;
+     color: #1100ff;
 }
 
 section.playbill {
-    background-color: lightblue;
+    background-color: rgba(255, 242, 0, 0.76);
     border-top: 2px solid gray;
 }
+
+
+
+
+
+
+
+
+
+

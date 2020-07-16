@@ -15,3 +15,7 @@ img {
 h1 {
     color: saddlebrown;
 }
+
+img#front-desk {
+    width: 80%;
+}
