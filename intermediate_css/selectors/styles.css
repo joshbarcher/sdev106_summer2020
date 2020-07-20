@@ -1,0 +1,51 @@
+/* SIBLING SELECTORS */
+/* ************************************ */
+
+/* select a paragraph immediately following a header */
+/*header + p {
+    text-transform: uppercase;
+    color: #7d2626;
+    font-weight: bold;
+}*/
+
+/* select all paragraphs following a header */
+/*header ~ p {
+    font-style: italic;
+}*/
+
+/*header ~ footer {
+    background-color: #ffff99;
+}*/
+
+/*p + footer {
+    font-family: "Courier New", Consolas, monospace;
+}*/
+
+/* CHILD SELECTORS */
+/* ************************************ */
+
+header:first-child {
+    background: beige;
+}
+
+p:last-child {
+    background: lightblue;
+}
+
+aside header:first-of-type {
+    background: lightcoral;
+}
+
+aside header:last-of-type {
+    background: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
