@@ -1,0 +1,16 @@
+body {
+    font-family: "Bookman Old Style", serif;
+}
+
+aside {
+    color: darkblue;
+    font-weight: bold;
+}
+
+aside footer {
+    font-weight: normal;
+}
+
+footer {
+    font-style: italic;
+}
