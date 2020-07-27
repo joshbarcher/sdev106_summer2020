@@ -24,7 +24,7 @@
 /* CHILD SELECTORS */
 /* ************************************ */
 
-header:first-child {
+/*header:first-child {
     background: beige;
 }
 
@@ -38,9 +38,11 @@ aside header:first-of-type {
 
 aside header:last-of-type {
     background: lightgreen;
+}*/
+
+p:nth-of-type(even) {
+    text-decoration: underline;
 }
-
-
 
 
 

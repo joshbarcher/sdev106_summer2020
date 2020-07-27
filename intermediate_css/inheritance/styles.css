@@ -14,3 +14,9 @@ aside footer {
 footer {
     font-style: italic;
 }
+
+body {
+    background-color: beige;
+    color: #7f87ff;
+    font-size: 2em;
+}

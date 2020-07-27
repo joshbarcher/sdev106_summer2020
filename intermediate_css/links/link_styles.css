@@ -1,0 +1,23 @@
+/* Apply style using the LVHA rule -
+   Link then Visited then Active then Hover */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: hsla(113, 100%, 23%, 1);
+}
+
+a:visited {
+    color: hsla(113, 100%, 5%, 1);
+}
+
+a:hover {
+    color: hsla(113, 100%, 43%, 1);
+    text-decoration: underline;
+}
+
+a:active {
+    color: hsla(113, 100%, 93%, 1);
+}

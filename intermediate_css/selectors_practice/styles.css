@@ -1,0 +1,19 @@
+li:first-child {
+    text-decoration: underline;
+}
+
+ul#male-actors li:first-child, ul#male-actors li:last-child {
+    color: orange;
+}
+
+h1:first-child {
+    color: olive;
+}
+
+ul#female-actors li:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+ol {
+    background-color: olive;
+}
