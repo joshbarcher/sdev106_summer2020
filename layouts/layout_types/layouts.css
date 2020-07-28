@@ -1,0 +1,51 @@
+html {
+    background-color: lightpink;
+}
+
+body {
+    background-color: #07ede2;
+    width: 90%;
+    margin: 0 auto; /* center the body */
+}
+
+h1 {
+    background-color: #06a59d;
+    padding: 10px 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+p {
+    padding: 10px;
+}
+
+footer {
+    background-color: #06a59d;
+    padding: 10px 5px;
+    font-size: 1.15em;
+}
+
+article p {
+    display: inline-block;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
