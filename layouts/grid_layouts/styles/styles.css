@@ -1,0 +1,31 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #f4ebd7;
+    color: #331832;
+}
+
+a {
+    text-decoration: none;
+}
+
+div section, div nav {
+    margin: 4px;
+    border: 1px solid rgb(175, 130, 90);
+    padding: 4px 8px;
+    height: 100%
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+p {
+    padding: 4px 4px 10px 4px;
+}
+
+div section a {
+    padding: 4px;
+    display: block;
+}
