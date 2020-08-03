@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 
-div section, div nav {
+div#right-col > section, div#left-col > nav {
     margin: 4px;
     border: 1px solid rgb(175, 130, 90);
     padding: 4px 8px;
@@ -29,3 +29,30 @@ div section a {
     padding: 4px;
     display: block;
 }
+
+/* add some spacing/coloring to our
+   information boxes
+ */
+
+div#right-col div.row section {
+    background-color: rgba(200, 200, 200, .4);
+    padding: 10px;
+    border: 1px solid rgb(175, 130, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
