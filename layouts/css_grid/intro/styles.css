@@ -1,0 +1,32 @@
+html {
+    margin: 40px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+article.container p, article.container aside {
+    background-color: #ccefff;
+    border: 2px solid #242481;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article.container aside ul {
+    list-style-type: circle;
+    margin-left: 10px;
+}
+
+article.container {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+
+    /* declare my rows/columns */
+    grid-template-rows: 100px 200px 100px;
+    grid-template-columns: 200px 200px 200px;
+}
+
