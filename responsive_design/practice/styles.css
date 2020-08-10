@@ -1,0 +1,92 @@
+
+/* styles for all devices */
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    border-top: 2px solid rosybrown;
+    border-bottom: 2px solid rosybrown;
+    padding: 8px 4px;
+    font-family: Baskerville Old Face,serif;
+    font-size: 2.0em;
+    color: #8d5152;
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    width: 30%;
+}
+
+p {
+    margin: 30px;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* styles for mobile devices */
+
+
+/* styles for tablets */
+@media screen and (min-width: 481px) {
+    section#sheet div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    div img {
+        width: 100%;
+    }
+}
+
+
+/* styles for desktops */
+
+/* styles for printing */
+@media print {
+    * {
+        display: none;
+    }
+
+    section#sheet h1 {
+        display: none;
+    }
+
+    section#sheet div {
+        display: block;
+    }
+
+    img {
+        display: none;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 6px;
+    }
+
+    footer {
+        font-size: 1.3em;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
