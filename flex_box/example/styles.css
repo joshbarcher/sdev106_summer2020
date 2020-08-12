@@ -13,7 +13,7 @@ div h1, div p {
 div {
     border-radius: 25px;
     margin: 20px;
-    width: 300px;
+    width: 250px;
 }
 
 /* my flex box */
@@ -21,6 +21,14 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    align-content: flex-start;
+    align-items: center;
+
+    background-color: lightblue;
+    margin: 20px;
+    /*overflow: scroll;*/
+    height: 800px;
 }
 
 #div1 h1 {

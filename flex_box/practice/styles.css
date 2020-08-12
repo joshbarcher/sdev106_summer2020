@@ -1,0 +1,19 @@
+body {
+    background-color: #b2c5eb;
+}
+
+section#album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+img {
+    width: 150px;
+    margin: 15px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+}
